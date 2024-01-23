@@ -1,0 +1,200 @@
+body{
+      margin:0px;
+      padding:0px;
+      height: 200px;
+}
+
+.Navbar{
+    background-color: black;
+    text-align: center;
+    height:70px;
+}
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    float:right;
+    font-size: 20px;
+    list-style-type: none;
+    display:flex;
+    margin-right: 10px ;
+    color:white;
+    }
+li{
+    padding:10px;
+    color:#b4166d;
+}
+li:hover{
+    background-color: white;
+    border-radius: 7px;
+    color:black;
+    transition: 0.9s;
+}
+.bg{
+    background-image: url(./cof3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height:540px;
+    width:1209px;
+}
+.fname{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 30px;
+}
+.Navbar-ul li{
+    width:120px;
+    margin:15px;
+    padding:15px;
+}
+.Navbar-ul li a{
+     text-decoration: none;
+     color:#fff;
+}
+.Sub-Navbar-1{
+  display: none;
+}
+.Sub-Navbar-1:hover{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.drobtn{
+    background-color: blue;
+    color:white;
+    padding:16px;
+    font-size: 16ox;
+    border: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: blue;
+    color:white;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:over{
+    background-color: red;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+
+}
+.dropdown:hover .dropbtn{
+    background-color: black;
+
+}
+.main{
+    background-color: lightslategray;
+}
+.short{
+    background-color:black;
+    color:white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    text-align: center;   
+    width:600px; 
+    padding-right: 50px;
+    margin-left: 250px;
+}
+.cinfo{
+    text-align: center;
+    font-size: 30px;
+}
+.sub-cinfo{
+    text-align: center;
+    font-size: 30px;
+    background-color: lightgray;
+}
+.add{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.img{
+    margin-left: 10px;
+    margin-right: 20px;
+    
+}
+.men{
+    width:1200px;
+    height:auto;
+    float:left;
+    padding-bottom: 20px;
+    background-color: gray;
+}
+.men-left{
+    width:600px;
+    height:auto;
+    float:left;
+    padding:0px 20px 0px 40px;
+}
+.men-right{
+    width:500px;
+    height:500;
+    float:right;
+    padding: 0px 20px;
+}
+.men-left table th{
+    color:brown;
+    font-size: 30px;
+}
+.men-right table th{
+    color:brown;
+    font-size: 30px;
+}
+.cont{
+    background-color:black;
+    color:white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    text-align: center;   
+    width:600px; 
+    padding-right: 50px;
+    margin-left: 250px;
+}
+.cont-1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    padding-right: 50px;
+    margin-left: 100px;
+}
+
+.nam{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    padding-right: 50px;
+    margin-left: 250px;
+}
+.f{
+    align-items: center;
+    margin-left: 300px;
+}
+.f input{
+    height:50px;
+    width:300px;
+    text-align: center;
+}
+.f button{
+    background-color: black;
+    color: white;
+    height:50px;
+    width:300px;
+}
+
+
+
